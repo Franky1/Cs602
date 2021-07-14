@@ -37,7 +37,7 @@ Select_sublist = DF[Select1].unique()
 
 #sort the lise
 if Select1 == 'Elevation (m)':
-    Select2 = st.sidebar.slider('Continue', sorted(int(Select_sublist)))
+    Select2 = st.sidebar.slider('Continue', sorted(Select_sublist))
 else:
     Select2 = st.sidebar.selectbox('Continue', sorted(Select_sublist))
 
