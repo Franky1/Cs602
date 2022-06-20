@@ -3,3 +3,5 @@ streamlit-lottie==0.0.2
 urllib3==1.26.6
 requests==2.25.1
 pandas==1.3.0
+pydeck
+seaborn
