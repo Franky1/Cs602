@@ -12,7 +12,7 @@ def app():
         if r.status_code != 200:
             return None
         return r.json()
-    load_volcanoes = Volcanoes_load('https://assets6.lottiefiles.com/packages/lf20_ZdVYgO.json')#https://assets4.lottiefiles.com/packages/lf20_xCfcGS.json
+    load_volcanoes = Volcanoes_load('https://assets2.lottiefiles.com/private_files/lf30_olqau7o7.json')#https://assets4.lottiefiles.com/packages/lf20_xCfcGS.json
     st_lottie(load_volcanoes, speed=0.8,height=850,key='initial')
        
         #Welcome sidebar
