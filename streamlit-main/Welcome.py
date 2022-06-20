@@ -7,14 +7,7 @@ import time
 import pandas as pd
 st.set_page_config(layout="wide")
 def app():
-    def Volcanoes_load(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-    load_volcanoes = Volcanoes_load('https://assets4.lottiefiles.com/packages/lf20_xCfcGS.json')#https://assets4.lottiefiles.com/packages/lf20_xCfcGS.json
-    st_lottie(load_volcanoes, speed=0.8,height=850,key='initial')
-       
+    
         #Welcome sidebar
     st.sidebar.write("Hi!")
     container = st.sidebar.container()
