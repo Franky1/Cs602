@@ -7,7 +7,7 @@ import pandas as pd
 #def app():
 #main page
 #set the row style
-row0_1, row0_2, row0_spacer3 = st.beta_columns(
+row0_1, row0_2, row0_spacer3 = st.columns(
     (2, 2, .1))
 row0_1.title('This is the File look like📑')
 with row0_2:
