@@ -1,10 +1,8 @@
 # app2.py
 import streamlit as st
 from streamlit_lottie import st_lottie
-import urllib.request
 import requests
 import time
-import pandas as pd
 st.set_page_config(layout="wide")
 def app():
     def Volcanoes_load(url: str):
