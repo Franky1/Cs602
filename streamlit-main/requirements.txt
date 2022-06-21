@@ -1,9 +1,0 @@
-streamlit
-streamlit-lottie
-urllib3
-requests
-pandas
-matplotlib
-pydeck
-seaborn
-numpy
