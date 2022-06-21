@@ -8,9 +8,13 @@ import pandas as pd
 
 #connect to page.py
 def app():
-       
-    #Welcome sidebar
-    st.sidebar.write("Hi!")
+       def Volcanoes_load(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+    load_volcanoes = Volcanoes_load('https://assets6.lottiefiles.com/packages/lf20_ZdVYgO.json')#https://assets4.lottiefiles.com/packages/lf20_xCfcGS.json
+    st_lottie(load_volcanoes, speed=0.8,height=850,key='initial')
 
     st.sidebar.subheader("""
     Made by:[Qiaofei Yan](https://omeletteyan.github.io/index/)
