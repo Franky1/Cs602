@@ -10,6 +10,7 @@ import pandas as pd
 def app():
     #Welcome sidebar
     st.sidebar.write("Hi!")
+    st.sidebar.write("Welcome to my page!")
 
     st.sidebar.subheader("""
     Made by:[Qiaofei Yan](https://omeletteyan.github.io/index/)
