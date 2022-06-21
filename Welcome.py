@@ -17,7 +17,6 @@ def app():
     st_lottie(load_volcanoes, speed=0.8,height=850,key='initial')
     #Welcome sidebar
     st.sidebar.write("Hi!")
-    container = st.sidebar.container()
 
     st.sidebar.subheader("""
     Made by:[Qiaofei Yan](https://omeletteyan.github.io/index/)
