@@ -11,7 +11,7 @@ def app():
        
     #Welcome sidebar
     st.sidebar.write("Hi!")
-    container = st.sidebar.beta_container()
+    container = st.sidebar.container()
     
     #set time.sleep
     for percent_complete in range(1):
